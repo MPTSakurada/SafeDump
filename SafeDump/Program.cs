@@ -117,9 +117,9 @@ namespace SafeDump
                         ms.Position = 0;
 
                         zf.UpdateEntry(entry.FileName, ms);
-                    }
 
-                    zf.Save();
+                        zf.Save();
+                    }
                 }
         }
 
